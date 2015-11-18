@@ -28,3 +28,10 @@ and what would be harder?
 
 You could collaborate by locking files when another checks them out.  Making simultaneous changes
 would be tricky - but you wouldn't often have merge conflicts.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+I'd make a seperate branch when tackling a problem that I may not want in the main codebase.
+The benefit is that I and others can continue working on the main code while working on the branch
+without risk of braking the master.  The difficulty is merging can be circuitous.
