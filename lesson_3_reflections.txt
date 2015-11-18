@@ -22,3 +22,9 @@ What is the benefit of having a copy of the last known state of the remote store
 It allows for offline work and immediate re-syncing with GitHub by fetching or pulling and
 using merge's conflict handling. It also allows for fast forward merging if the commits can
 reach each other (easy to tell if recorded)
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+You could collaborate by locking files when another checks them out.  Making simultaneous changes
+would be tricky - but you wouldn't often have merge conflicts.
