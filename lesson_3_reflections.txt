@@ -16,3 +16,9 @@ Forks are clones of a repo on GitHub, used to get projects that others have been
 which you do not have permission to modify. Clones completely copy a repo in very general terms.
 Branches initiate a breakpoint to allow one to develop w/o upsetting things
 in another branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows for offline work and immediate re-syncing with GitHub by fetching or pulling and
+using merge's conflict handling. It also allows for fast forward merging if the commits can
+reach each other (easy to tell if recorded)
