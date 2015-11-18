@@ -8,3 +8,11 @@ Git automatically stay up-to-date with your remote repository?
 
 You may have other people contributing to the online repository and not want to deal
 with conflicts until you make a final commit.
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+Forks are clones of a repo on GitHub, used to get projects that others have been working on
+which you do not have permission to modify. Clones completely copy a repo in very general terms.
+Branches initiate a breakpoint to allow one to develop w/o upsetting things
+in another branch.
